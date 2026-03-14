@@ -97,6 +97,17 @@ body {
 
 .shadow-sm { box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); }
 .shadow-xl { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
+.shadow-cozy { box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.06); }
+
+/* Cozy Theme Utilities */
+.bg-cozy-cream { background-color: #fef9f3; }
+.bg-cozy-orange { background-color: #d97706; }
+.text-cozy-brown { color: #92400e; }
+.text-cozy-dark { color: #7c4a20; }
+.font-cozy { font-family: 'Fredoka', system-ui, sans-serif; }
+.font-cozy-display { font-family: 'Quicksand', 'Fredoka', system-ui, sans-serif; }
+
+.rounded-cozy { border-radius: 1rem; }
 
 .space-y-2 > * + * { margin-top: 0.5rem; }
 
